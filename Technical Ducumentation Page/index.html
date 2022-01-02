@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <style>
+       * {
+         box-sizing: border-box;
+       }
+
+       body {
+         font-family: Arial;
+         padding: 10px;
+         background: #f1f1f1;
+       }
+
+       /* Header/Blog Title */
+       .header {
+         padding: 30px;
+         text-align: center;
+         background: white;
+       }
+
+       .header h1 {
+         font-size: 50px;
+       }
+
+       /* Style the top navigation bar */
+       .topnav {
+         overflow: hidden;
+         background-color: #533;
+       }
+
+       /* Style the topnav links */
+       .topnav a {
+         float: left;
+         display: block;
+         color: #f2f2f2;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+       }
+
+       /* Change color on hover */
+       .topnav a:hover {
+         background-color: #ddd;
+         color: black;
+       }
+
+       /* Create two unequal columns that floats next to each other */
+       /* Left column */
+       .leftcolumn {
+         float: left;
+         width: 25%;
+       }
+
+       /* Right column */
+       .rightcolumn {
+         float: left;
+         width: 75%;
+         background-color: #f1f1f1;
+         padding-left: 20px;
+       }
+
+       /* Fake image */
+       .fakeimg {
+         background-color: #aaa;
+         width: 100%;
+         padding: 20px;
+       }
+
+       /* Add a card effect for articles */
+       .card {
+         background-color: white;
+         padding: 20px;
+         margin-top: 20px;
+       }
+
+       /* Clear floats after the columns */
+       .row:after {
+         content: "";
+         display: table;
+         clear: both;
+       }
+
+       /* Footer */
+       .footer {
+         padding: 20px;
+         text-align: center;
+         background: #ddd;
+         margin-top: 20px;
+       }
+
+       /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+       @media screen and (max-width: 800px) {
+         .leftcolumn, .rightcolumn {
+           width: 100%;
+           padding: 0;
+         }
+       }
+
+       /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+       @media screen and (max-width: 400px) {
+         .topnav a {
+           float: none;
+           width: 100%;
+         }
+       }
+     </style>
+   </head>
+   <body>
+
+     <div class="row">
+       <div class="leftcolumn">
+         <div class="card">
+           <nav class="topnav" id="navbar">
+             <header></header>
+
+             <a href="#Coat_Pan_with_Butter" class="nav-link">
+               Coat Pan With Butter
+             </a>
+             <a href="#Place_Garlic_Clove_in_Pan" class="nav-link">
+               Place Garlic Clove in Pan
+             </a>
+             <a href="#Flip_Steak_Peridically" class="nav-link">
+               Flip Steak Periodically
+             </a>
+             <a href="#Add_Mushrooms_or_peppers" class="nav-link">
+               Add Mushrooms or Peppers
+             </a>
+             <a href="#Cook_Until_At_least_Rare" class="nav-link">
+               Cook Until Atleast Rare
+             </a>
+
+           </nav>
+         </div>
+       </div>
+       <div class="rightcolumn">
+
+         <div class="header">
+           <h1>How to Cook a Steak</h1>
+         </div>
+         <main id="main-doc">
+
+           <div class="card">
+             <section class="main-section" id="Let_Steak_Thaw">
+               <header>What Do You Need?</header>
+               <code>Ingredients and materials</code>
+               <ol>
+                 <li>Olive oil or butter</li>
+                 <li>Salt and Pepper</li>
+                 <li>Frying pan and spatula</li>
+                 <li>Red pepper and/or mushrooms</li>
+                 <li>your appetite!</li>
+               </ol>
+               <p>When cooking steak, feel free to make it personal and add what you prefer. This includes but is not limited to mashed potatoes, asparagus, or steamed vegetables.</p>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+             </section>
+           </div>
+           <div class="card">
+             <section class="main-section" id="Coat_Pan_With_Butter">
+               <header>Coat Pan With Butter</header>
+               <code>Pan must be on medium-high heat</code>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+             </section>
+           </div>
+           <div class="card">
+             <section class="main-section"  id="Turn_on_Ignition">
+               <header>Place Garlic Clove in Pan</header>
+               <code>It is best to crush the garlic clove</code>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+             </section>
+           </div>
+           <div class="card">
+             <section class="main-section"  id="Press_Ignition_Button">
+               <header>Flip Steak Periodically</header>
+               <code>For an even finish</code>
+               <p>If you don't have an ignition button, use the kick-start device.</p>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+             </section>
+           </div>
+           <div class="card">
+             <section class="main-section" id="Drive_Motorcycle">
+               <header>Add Mushrooms or Peppers</header>
+               <code>For extra flavor</code>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+             </section>
+           </div>
+         </main>
+       </div>
+     </div>
+
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   </body>
+ </html>
